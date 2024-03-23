@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { inter,actor, sedgwick_ave_display } from '@/app/ui/fonts';
+import {lusitana } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <body className={`${sedgwick_ave_display.className} antialiased`}>{children}</body>
+        <body className={`${lusitana.className} antialiased`}>{children}</body>
     </html>
   );
 }
